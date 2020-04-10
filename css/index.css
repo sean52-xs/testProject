@@ -1,0 +1,256 @@
+/*顶部通栏*/
+.topBar{
+	width: 100%;
+	height: 42px;
+	background: #fa7fba;
+}
+.topBar .topBar_content{
+	width: 1200px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	position: relative;
+}
+.topBar .topBar_content .text{
+	
+}
+.topBar .topBar_content .tel{
+	/*margin-right: 70px;*/
+}
+.tel_item{
+	display: inline-block;
+	width:1px;
+	height: 11px;
+	background: #fca6cf;
+	margin: 0 10px;
+}
+/*.tel_btn{
+	position: absolute;
+	right: 0;
+	top:4px;
+	line-height: 1px;
+	background: #fa7fba;
+	color: #fff;
+}*/
+
+/*导航栏*/
+.nav{
+	width: 1200px;
+	height: 90px;
+	line-height: 90px;
+	margin: 0 auto;
+}
+.nav .logo{
+
+}
+.nav .logo a{
+	margin-top: 17px;
+	border:none;
+	padding: 0;
+}
+.nav .logo a:hover{
+	text-decoration: none;
+	
+}
+.nav .logo a img{
+	vertical-align:top;
+}
+.nav .nav_content{
+	height: 90px;
+}
+.nav .nav_content li{
+	position: relative;
+}
+.nav .nav_content .nav_a{
+	display: block;
+	padding: 36px 20px;
+	font-size: 16px;
+	color: #333;
+	background: #fff;
+	border:none;
+}
+.nav .nav_content .nav_a:hover{
+	color: #fa7fba;
+}
+.nav .nav_content li ul{
+	position: absolute;
+	left: 0;
+	top:90px;
+	background: #fa7fba;
+	color: #fff;
+	z-index: 1000;
+}
+.nav .nav_content li ul li{
+	width: 145px;
+}
+.nav .nav_content li ul:hover li:last-child{
+	border-bottom: 2px solid #fa7fba;
+}
+.nav .nav_content li ul li a{
+	overflow: hidden;
+    white-space: nowrap;
+}
+.nav .nav_content li ul li a:hover{
+	background: #fbfbfb;
+	color: #fa7fba;
+
+}
+
+/*轮播图*/
+.banner{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 50px;
+}
+/*服务体系*/
+.serve{
+	width: 100%;
+	padding: 60px 0;
+	background: #fffbf2;
+	clear: both;
+}
+.serve .content{
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
+}
+.serve .content li{
+	display:block;
+	position: relative;
+	width: 400px;
+	height: 230px;
+	float: left;
+	text-align: center;
+}
+.serve .content .con-l-01{
+	background: #f2faff;
+}
+.serve .content .con-l-02{
+	background: #fff;
+}
+.serve .content .con-des{
+	width: 80%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.serve .content .con-des span{
+	display: block;
+	width: 65px;
+	height: 65px;
+	margin: 0 auto;
+}
+.serve .content .con-des{}
+.serve .content .con-des h3{
+	font-size: 20px;
+	color: #333;
+	padding: 12px 0 15px;
+	font-weight: normal;
+}
+.serve .content li:hover{
+	background: #f994c6;
+}
+.serve .content li .con-des-01{
+	background: url(../images/ico-img.png) no-repeat;
+}
+.serve .content li .con-des-02{
+	background: url(../images/serve-02-1.png) no-repeat;
+}
+.serve .content li .con-des-03{
+	background: url(../images/serve-03-1.png) no-repeat;
+}
+.serve .content li .con-des-04{
+	background: url(../images/serve-04-1.png) no-repeat;
+}
+.serve .content li .con-des-05{
+	background: url(../images/serve-05-1.png) no-repeat;
+}
+.serve .content li .con-des-06{
+	background: url(../images/serve-06-1.png) no-repeat;
+}
+.serve .content li:hover h3,
+.serve .content li:hover p{
+	color: #fff;
+}
+.serve .content li:hover .con-des-01{
+	background: url(../images/serve-01-2.png) no-repeat;
+}
+.serve .content li:hover .con-des-02{
+	background: url(../images/serve-02-2.png) no-repeat;
+}
+.serve .content li:hover .con-des-03{
+	background: url(../images/serve-03-2.png) no-repeat;
+}
+.serve .content li:hover .con-des-04{
+	background: url(../images/serve-04-2.png) no-repeat;
+}
+.serve .content li:hover .con-des-05{
+	background: url(../images/serve-05-2.png) no-repeat;
+}
+.serve .content li:hover .con-des-06{
+	background: url(../images/serve-06-2.png) no-repeat;
+}
+
+/*护理环境*/
+.meal{
+	width: 100%;
+	padding: 60px 0;
+	background: #fff;
+}
+.meal .meal-title{
+	width: 100%;
+	padding-bottom: 25px;
+	border-bottom:1px solid #ccc;
+	text-align: center;
+}
+.meal .meal-title h5{
+	font-size: 28px;
+	color: #333;
+}
+.meal .meal-title p{
+	font-size: 14px;
+	color: #333;
+}
+.meal .meal-content{
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+.meal .meal-content li{
+	display: inline-block;
+	width: 20%;
+	height: 577px;
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+	overflow: hidden;
+}
+.meal .meal-content li a{
+	text-decoration: none;
+}
+.meal .meal-content li a img{
+	display: block;
+	width: 100%;
+}
+.meal .meal-content li a h5{
+	font-size: 18px;
+	padding-top: 40px;
+}
+.meal .meal-content li a i{
+	display: block;
+	width: 7px;
+	height: 7px;
+	background: #dbdbdb;
+	border-radius: 50%;
+	margin:10px auto;
+}
+.meal .meal-content li a p{
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
